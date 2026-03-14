@@ -1,0 +1,7 @@
+{
+  "name": "CCS - Component Sourcing Solutions",
+  "description": "Professional component sourcing solutions providing optimal parts at competitive prices with industry-leading lead times.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
