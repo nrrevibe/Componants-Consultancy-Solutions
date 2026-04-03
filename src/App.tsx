@@ -522,7 +522,7 @@ export default function App() {
                 >
                   <span className="flex h-2 w-2 rounded-full bg-brand animate-pulse" />
                   <span className="text-xs font-black uppercase tracking-widest text-slate-700">
-                    Global Supply Chain Excellence
+                    CCS Consultants | Ahmedabad
                   </span>
                 </motion.div>
 
@@ -535,9 +535,9 @@ export default function App() {
                       className="block"
                     >
                       {isMobile ? (
-                        'PRECISION'
+                        'CONSULTING'
                       ) : (
-                        ['P','R','E','C','I','S','I','O','N'].map((char, i) => (
+                        ['C','O','N','S','U','L','T','I','N','G'].map((char, i) => (
                           <motion.span key={i} initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.4 + i * 0.05 }} className="inline-block">{char}</motion.span>
                         ))
                       )}
@@ -551,9 +551,9 @@ export default function App() {
                       className="block"
                     >
                       {isMobile ? (
-                        'SOURCING'
+                        'SERVICES'
                       ) : (
-                        ['S','O','U','R','C','I','N','G'].map((char, i) => (
+                        ['S','E','R','V','I','C','E','S'].map((char, i) => (
                           <motion.span key={i} initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.6 + i * 0.05 }} className="inline-block">{char}</motion.span>
                         ))
                       )}
@@ -567,9 +567,9 @@ export default function App() {
                       className="block"
                     >
                       {isMobile ? (
-                        'DEFINED.'
+                        'AHMEDABAD.'
                       ) : (
-                        ['D','E','F','I','N','E','D','.'].map((char, i) => (
+                        ['A','H','M','E','D','A','B','A','D','.'].map((char, i) => (
                           <motion.span key={i} initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.8 + i * 0.05 }} className="inline-block">{char}</motion.span>
                         ))
                       )}
@@ -583,8 +583,7 @@ export default function App() {
                   transition={{ delay: 0.8, duration: 0.8 }}
                   className="text-lg md:text-xl text-slate-600 mb-8 md:mb-10 max-w-xl leading-relaxed font-medium"
                 >
-                  CCS bridges the gap between complex engineering requirements and global component
-                  availability. We deliver 100% traceable, high-performance electronics at scale.
+                  CCS Consultants provides top-tier engineering, IT, and project management consulting services in Ahmedabad. We deliver expert solutions for complex industrial challenges with 15+ years of experience.
                 </motion.p>
 
                 <motion.div
@@ -680,7 +679,7 @@ export default function App() {
                   <div className="relative rounded-[2rem] md:rounded-[3rem] overflow-hidden shadow-[0_80px_120px_-30px_rgba(0,0,0,0.3)] border-[8px] md:border-[12px] border-white group">
                     <img
                       src="./img/Sourcing 2.jpeg"
-                      alt="Advanced Electronics Sourcing"
+                      alt="Leading Engineering Consultants in Ahmedabad - CCS Consultants"
                       className="w-full h-[400px] md:h-[600px] object-cover group-hover:scale-110 transition-transform duration-1000"
                       decoding="async"
                       fetchPriority="high"
@@ -829,8 +828,8 @@ export default function App() {
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading
-            title="Our Services"
-            subtitle="Comprehensive electronics solutions tailored to your specific requirements"
+            title="Our Core Engineering & IT Services"
+            subtitle="Expert consulting solutions in Ahmedabad tailored to your industrial and business requirements"
           />
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {services.map((service, i) => (
@@ -845,7 +844,7 @@ export default function App() {
                   <div className="h-56 overflow-hidden relative">
                     <img
                       src={service.img}
-                      alt={service.title}
+                      alt={`${service.title} - Expert Consulting in Ahmedabad`}
                       className="w-full h-full object-cover group-hover:scale-110 transition-all duration-1000 ease-out"
                       loading="lazy"
                       decoding="async"
@@ -896,8 +895,8 @@ export default function App() {
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading
-            title="About CCS"
-            subtitle="Component Sourcing Solutions (CCS) specializes in providing comprehensive component sourcing services to businesses worldwide."
+            title="Leading Consultants in Ahmedabad"
+            subtitle="CCS offers 15+ years of experience in project management, engineering, and industrial consulting solutions."
           />
           <div className="grid md:grid-cols-2 gap-16 items-center mb-20">
             <motion.div
@@ -905,11 +904,9 @@ export default function App() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
             >
-              <h3 className="text-2xl font-bold mb-6">Our Mission</h3>
+              <h3 className="text-2xl font-bold mb-6">Expertise & Strategic Solutions</h3>
               <p className="text-lg text-slate-600 leading-relaxed mb-8">
-                Our expertise lies in analyzing market conditions, evaluating supplier networks, and
-                delivering precise component sourcing solutions that enable informed procurement
-                decisions. We are committed to excellence in every aspect of component sourcing.
+                As top engineering consultants in Ahmedabad, we analyze complex market conditions and deliver precise solutions for IT and project management. Our commitment to excellence makes us the preferred choice for industrial consulting in Gujarat.
               </p>
               <div className="space-y-4">
                 {[

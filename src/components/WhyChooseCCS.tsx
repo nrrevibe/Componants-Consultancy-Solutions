@@ -57,10 +57,10 @@ export const WhyChooseCCS = () => {
                 The CCS Edge
               </span>
               <h2 className="text-5xl md:text-7xl font-black tracking-tighter leading-[0.85] mb-8">
-                WHY<br />CHOOSE<br /><span className="text-brand">CCS.</span>
+                WHY<br />CHOOSE<br /><span className="text-brand">CCS?</span>
               </h2>
               <p className="text-slate-400 font-medium text-lg max-w-sm">
-                We don't just source components; we engineer supply chain resilience through precision and global reach.
+                As leading consulting firms in Ahmedabad, we engineer business resilience through expertise, strategic planning, and global reach.
               </p>
               <div className="mt-12 flex gap-4">
                 <div className="w-12 h-12 rounded-full border border-white/20 flex items-center justify-center text-brand animate-pulse">

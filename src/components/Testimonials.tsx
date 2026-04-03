@@ -29,8 +29,8 @@ export const Testimonials = () => {
     <section className="py-24 bg-white overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeading
-          title="Client Testimonials"
-          subtitle="What industry leaders say about our sourcing solutions"
+          title="Our Clients & Success Stories"
+          subtitle="Top businesses in Ahmedabad and beyond trust our consulting expertise"
         />
         <div className="grid md:grid-cols-3 gap-8">
           {testimonials.map((t, i) => (
